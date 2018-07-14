@@ -5,6 +5,6 @@ if [[ $# == '0' ]]; then
   ant
   java -jar dist/sample-java-project-1.0-SNAPSHOT-all.jar --name $NAME
 else
-  echo "Executing: $@"
+  echo "Executing $@"
   $@
 fi
